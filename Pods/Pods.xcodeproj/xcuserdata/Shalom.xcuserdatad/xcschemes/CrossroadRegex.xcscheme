@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '11C79C0D4621801C7354F117'
+               BlueprintIdentifier = '89A44F8931D69A7736ABFD60'
                BlueprintName = 'CrossroadRegex'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CrossroadRegex.framework'>
