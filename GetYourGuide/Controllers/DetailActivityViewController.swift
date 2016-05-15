@@ -46,8 +46,9 @@ class DetailActivityViewController: UIViewController,FloatRatingViewDelegate {
     
     func setupViews() {
         // image view & MBProgressHUD
-        self.imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: 200))
+        self.imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: 250))
         self.imageView?.contentMode = .ScaleAspectFill
+        self.imageView?.clipsToBounds = true
 
         // table view
         //self.tableView = UITableView(frame: CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT))
